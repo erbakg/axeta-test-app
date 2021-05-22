@@ -1,0 +1,312 @@
+.mainProfileBox {
+  width: 100vw;
+  height: 224px;
+  background-color: rgba(179, 186, 192, 0.2);
+  padding: 40px;
+  display: flex;
+  .profileLeftSide {
+    margin-left: 116px;
+    display: flex;
+    .profileInfoBox {
+      margin-left: 24px;
+      .profileNameBox {
+        height: 48px;
+        display: flex;
+        align-items: center;
+        cursor: default;
+
+        .errorTextBox {
+          position: absolute;
+          top: 41px;
+          left: 716px;
+          .errorText {
+            font-size: 14px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+              Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+              sans-serif;
+            color: #ff0000;
+            line-height: 20px;
+          }
+        }
+        .profileNameInputBox {
+          border-bottom: 1px solid #000;
+          background-color: transparent;
+          width: 360px;
+          height: 48px;
+          display: flex;
+          background-color: rgba(0, 0, 0, 0.06);
+          .errorIcon {
+            width: 16px;
+            height: 16px;
+            align-self: center;
+            margin-right: 4px;
+            color: #eb5757;
+          }
+          .profileNameInput {
+            width: 330px;
+            font-size: 50px;
+            line-height: 48px;
+            font-weight: 500;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+              Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+              sans-serif;
+            color: #000;
+            border-color: transparent;
+            outline: none;
+            background-color: transparent;
+          }
+          .checkIcon {
+            width: 16px;
+            height: 16px;
+            align-self: center;
+            margin-right: 4px;
+          }
+        }
+        .profileName {
+          border-width: 0;
+          background-color: transparent;
+          font-size: 50px;
+          line-height: 48px;
+          width: 360px;
+          font-weight: 500;
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+            Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+          color: #000;
+          &:hover {
+            height: 48px;
+            background-color: rgba(0, 0, 0, 0.06);
+          }
+        }
+      }
+      .userExpBox {
+        height: 48px;
+        display: flex;
+        align-items: center;
+        cursor: default;
+        .userExpInputBox {
+          border-bottom: 1px solid #000;
+          background-color: transparent;
+          width: 159px;
+          height: 24px;
+          display: flex;
+          background-color: rgba(0, 0, 0, 0.06);
+        }
+        .userExpInput {
+          width: 133px;
+          font-size: 16px;
+          line-height: 24px;
+          font-weight: 500;
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+            Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+          color: #000;
+          border-color: transparent;
+          outline: none;
+          background-color: transparent;
+        }
+        .errorTextBox {
+          position: absolute;
+          top: 136px;
+          left: 716px;
+          .errorText {
+            font-size: 14px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+              Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+              sans-serif;
+            color: #ff0000;
+            line-height: 20px;
+          }
+        }
+        .errorIcon {
+          width: 16px;
+          height: 16px;
+          align-self: center;
+          margin-right: 4px;
+          color: #eb5757;
+        }
+        .checkIcon {
+          width: 16px;
+          height: 16px;
+          align-self: center;
+          margin-right: 4px;
+        }
+        .userExpItemBox {
+          height: 24px;
+          background-color: #333333;
+          border-radius: 4px;
+          margin: 4px;
+          position: relative;
+          display: flex;
+          .plusIcon {
+            color: #fff;
+            size: 12px;
+          }
+          &:hover {
+            height: 24px;
+            background-color: #666666;
+            border-radius: 4px;
+            margin: 4px;
+            display: flex;
+          }
+          &:hover .deleteIcon {
+            visibility: visible;
+          }
+          .userExpItemText {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+              Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+              sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            padding: 4px 8px;
+            margin: auto;
+
+            color: #ffffff;
+          }
+          .deleteIcon {
+            visibility: hidden;
+            color: #ff0000;
+            width: 16px;
+            height: 16px;
+            position: absolute;
+            z-index: 999;
+            top: -7px;
+            right: -7px;
+          }
+        }
+      }
+      .errorTextBox {
+        position: absolute;
+        top: 87px;
+        left: 716px;
+        .errorText {
+          font-size: 14px;
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+            Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+          color: #ff0000;
+          line-height: 20px;
+        }
+      }
+
+      .profileAddressBox {
+        height: 48px;
+        display: flex;
+        align-items: center;
+        cursor: default;
+        .profileAddressInputBox {
+          border-bottom: 1px solid #000;
+          background-color: transparent;
+          width: 360px;
+          height: 24px;
+          display: flex;
+          background-color: rgba(0, 0, 0, 0.06);
+          .profileAddressInput {
+            width: 330px;
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 500;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+              Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+              sans-serif;
+            color: #000;
+            border-color: transparent;
+            outline: none;
+            background-color: transparent;
+          }
+          .checkIcon {
+            width: 16px;
+            height: 16px;
+            align-self: center;
+            margin-right: 4px;
+          }
+          .errorIcon {
+            width: 16px;
+            height: 16px;
+            align-self: center;
+            margin-right: 4px;
+            color: #eb5757;
+          }
+        }
+      }
+    }
+    .userAvatarBox {
+      width: 168px;
+      height: 168px;
+      border-radius: 50%;
+      position: relative;
+      &:hover .changeAvatarIconBox {
+        visibility: visible;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background-color: #3483cc;
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 9999;
+        .changeAvatarIcon {
+          color: #fff;
+          size: 24px;
+        }
+      }
+      .changeAvatarIconBox {
+        visibility: hidden;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background-color: #3483cc;
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .changeAvatarIcon {
+          color: #fff;
+          size: 24px;
+        }
+      }
+      .userAvatar {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+      }
+    }
+  }
+  .profileRightSide {
+    display: flex;
+    justify-content: flex-end;
+    width: 40%;
+    .profilePrintButton {
+      align-self: flex-start;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      &:hover .profilePrintButtonIcon {
+        color: #eb5757;
+      }
+      &:hover .profilePrintButtonText {
+        font-size: 16px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+          Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 400;
+        color: #eb5757;
+      }
+      .profilePrintButtonIcon {
+        color: #b3bac0;
+        margin-right: 8px;
+      }
+      .profilePrintButtonText {
+        font-size: 16px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+          Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 400;
+        color: #3483cc;
+      }
+    }
+  }
+}
